@@ -68,3 +68,15 @@ main{
   height:90%;
   justify-content: space-between;
 }
+
+@media (max-width: 1250px){
+  header::after {
+    content: url('https://picsum.photos/850/275')
+  }
+}
+
+@media (max-width: 950px) {
+  header::after {
+    content: url('https://picsum.photos/400/275');
+  }
+}
